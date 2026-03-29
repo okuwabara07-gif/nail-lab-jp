@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: { default: 'ネイルLAB', template: '%s | ネイルLAB' },
   description: 'セルフネイルのやり方からおすすめネイル用品まで徹底紹介',
+  verification: { google: 'xpdiFRYHloMJxfhCT-IMD08p5na4v9WUqvPY9OrDsHs' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
