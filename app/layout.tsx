@@ -16,7 +16,14 @@ export const metadata: Metadata = {
     title: 'ネイルLab',
     description: 'ネイル・セルフネイル情報',
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
